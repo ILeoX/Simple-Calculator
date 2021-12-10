@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2, p {
+  text-align: center;
+  margin: 5%;
+  font-family: monospace;
+}
+
+p {
+  font-size: 8pt;
+  margin-bottom: 0;
+}
+
+.container {
+  border: 2px #000 solid;
+  margin: 30px;
+  padding: 30px;
+}
+
+.calculator {
+  max-width: 180px;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+  -webkit-box-shadow: 2px 3px #9b9898;
+          box-shadow: 2px 3px #9b9898;
+  background-color: #130218;
+  border-radius: 10px;
+}
+
+.button, .func {
+  padding: 5px 20px;
+  margin: 5px 0;
+  background-color: #4d0164;
+  color: #f3eded;
+  border: none;
+  border-radius: 3px;
+}
+
+.button:hover, .func:hover {
+  cursor: pointer;
+}
+
+input[type="text"] {
+  font-size: 10pt;
+  background-color: white;
+  border-radius: 3px;
+  padding: 5px;
+  max-width: 140px;
+}
+
+.func {
+  padding: 7px 5px;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
